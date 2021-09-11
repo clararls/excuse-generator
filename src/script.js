@@ -1,6 +1,4 @@
 /* eslint-disable */
-import "bootstrap";
-import "./style.css";
 
 window.onload = function() {
   //write your code here
@@ -16,5 +14,5 @@ window.onload = function() {
   var ex2 = Math.floor((Math.random()*what.length));
   var ex2 = Math.floor((Math.random()*when.length));
   
-  document.querySelector ("#excuse").innerHTML = who[ex1]+what[ex2]+when[ex3];
+  document.querySelector ('#excuse').innerHTML = who[ex1]+what[ex2]+when[ex3];
 };
